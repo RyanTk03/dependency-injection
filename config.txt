@@ -1,0 +1,2 @@
+tech.rayane.dao.DaoImpl
+tech.rayane.metier.MetierImpl
