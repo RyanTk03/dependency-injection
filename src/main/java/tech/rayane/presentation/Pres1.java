@@ -1,6 +1,7 @@
 package tech.rayane.presentation;
 
-import tech.rayane.dao.DaoImpl;
+// import tech.rayane.dao.DaoImpl;
+import tech.rayane.dao.DaoImplV2;
 import tech.rayane.metier.MetierImpl;
 
 /**
@@ -9,7 +10,7 @@ import tech.rayane.metier.MetierImpl;
 public class Pres1 {
 
 	public static void main(String[] args) {
-		DaoImpl dao = new DaoImpl();
+		DaoImplV2 dao = new DaoImplV2();
 		MetierImpl metier = new MetierImpl(dao);
 
 		// metier.setDao(dao);
