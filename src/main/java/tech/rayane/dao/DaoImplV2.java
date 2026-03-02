@@ -1,8 +1,11 @@
 package tech.rayane.dao;
 
+import org.springframework.stereotype.Component;
+
 /**
  * DaoImplV2
  */
+@Component("dao2")
 public class DaoImplV2 implements IDao {
 
 	@Override
